@@ -1,5 +1,4 @@
-def oxford_comma(array)
-  array["kiwi", "durian", "starfruit", "mangos", "dragon fruits"]
+def oxford_comma =["kiwi", "durian", "starfruit", "mangos", "dragon fruits"]
   if array.length == 2
     return "#{array[0]} and #{array[1]}"
   elsif 2 < array.length
